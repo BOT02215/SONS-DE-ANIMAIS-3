@@ -1,0 +1,48 @@
+<html>
+
+<head>
+  <title>App Web Identificador de Sons</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+
+  <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+  <center>
+    <div class="col-xs-12 header_div text-center">
+      <h2>Sons de Animais</h2>
+      <p>Observação: Reproduza diferentes sons, como: latidos, miados, rugidos, para fazer os
+        te reconhecerem</p>
+    </div>
+
+    <div class="main_div">
+      <button onclick="start()"> Iniciar </button>
+      <h3> Monstros Dançando Atualmente: </h3>
+      <div id="Animal">
+        Animal:
+      </div>
+      <div id="Precisão">
+        Precisão:
+      </div>
+
+      <img id="Chachorro" src="catioro.png" height="300" width="300">
+      <img id="Gato" src="gatito.png" height="300" width="300">
+      <img id="Leão" src="th.jpeg" height="300" width="300">
+      <img id="Vaca" src="vaquita.jpg" height="300" width="300">
+    </div>
+
+    <div class="copy_right_footer">
+      Desenvolvido por - Equipe BYJU'S
+    </div>
+  </center>
+
+  <script src="main.js"></script>
+</body>
+
+</html>
